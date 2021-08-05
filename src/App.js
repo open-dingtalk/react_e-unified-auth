@@ -26,7 +26,10 @@ function App() {
       },
     }).then((res) => {
       // 处理返回数据
-      console.log(res);
+      console.log('openAuthMiniAppopenAuthMiniAppopenAuthMiniAppopenAuthMiniApp',res);
+    }).catch((err) => {
+      // 处理返回数据
+      console.log('openAuthMiniAppcatchcatchcatchcatchcatch',err);
     });
   };
 
@@ -44,7 +47,10 @@ function App() {
       },
     }).then((res) => {
       // 处理返回数据
-      console.log(res);
+      console.log('cancelMiniAppcancelMiniAppcancelMiniAppcancelMiniAppcancelMiniAppcancelMiniApp',res);
+    }).catch((err) => {
+      // 处理返回数据
+      console.log('cancelMiniAppcatchcatchcatchcatchcatchcatchcatchcatchcatch',err);
     });
   };
   return (
